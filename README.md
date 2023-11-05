@@ -13,9 +13,7 @@ Welcome to Our Project! This repository contains the Python code  and libraries 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-
+ 
 ## Features
 
 - Calculate the final values for a circuit of 2 capacitors.
