@@ -158,12 +158,12 @@ else:
     draw.text(position7, text4, fill=text_blue, font=font2)
     draw.text(position8, text3, fill=text_green, font=font2)
 
-if (V2 >= 0):
-  draw.text(position10, text3, fill=text_green, font=font2)
-  draw.text(position9, text4, fill=text_blue, font=font2)
-else:
-    draw.text(position9, text3, fill=text_green, font=font2)
-    draw.text(position10, text4, fill=text_blue, font=font2)
+    if (V2 >= 0):
+        draw.text(position10, text3, fill=text_green, font=font2)
+        draw.text(position9, text4, fill=text_blue, font=font2)
+    else:
+        draw.text(position9, text3, fill=text_green, font=font2)
+        draw.text(position10, text4, fill=text_blue, font=font2)
 
 draw.text(position_txt, text_txt, fill=text_color4, font=font)
 
